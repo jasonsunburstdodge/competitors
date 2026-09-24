@@ -1,0 +1,16 @@
+/* ------------------------------------------------------------------
+   IT Staffing page background: "The Moving Grid" — a drifting field
+   of thin white and electric-blue architectural grid lines, page-
+   scoped (not the shared #synapse-canvas used on other subpages).
+------------------------------------------------------------------- */
+
+#grid-bg-canvas {
+  position: fixed;
+  inset: 0;
+  width: 100vw;
+  height: 100vh;
+  display: block;
+  pointer-events: none;
+  background: radial-gradient(ellipse 100% 80% at 50% 25%, var(--bg-navy) 0%, var(--bg-navy-mid) 55%, var(--bg-void) 100%);
+  z-index: 0;
+}

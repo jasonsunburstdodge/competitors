@@ -1,0 +1,16 @@
+/* ------------------------------------------------------------------
+   Custom Software Development page background: a branching bundle of
+   wires descending from a glowing cloud, page-scoped (not the shared
+   #synapse-canvas used on other subpages).
+------------------------------------------------------------------- */
+
+#csd-wires-canvas {
+  position: fixed;
+  inset: 0;
+  width: 100vw;
+  height: 100vh;
+  display: block;
+  pointer-events: none;
+  background: radial-gradient(ellipse 90% 70% at 50% 35%, var(--bg-navy) 0%, var(--bg-navy-mid) 55%, var(--bg-void) 100%);
+  z-index: 0;
+}
